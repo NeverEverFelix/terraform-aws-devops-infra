@@ -36,7 +36,7 @@ This repository contains a fully modular, production-grade DevOps infrastructure
 
 ---
 
-##  Repository Structure
+#  Repository Structure
 
 ```bash
 terraform-aws-devops-infra/
@@ -112,8 +112,8 @@ DevOps Engineer | Cloud Infrastructure | CI/CD | Kubernetes
 
 - 🔗 [LinkedIn](https://www.linkedin.com/in/felixmoronge)  
 - 🌐 [Portfolio](https://www.felixmoronge.com)
-
-##  Step 1: Prerequisites & Local Setup
+---
+#  Step 1: Prerequisites & Local Setup
 
 Before you begin, ensure the following tools are installed and properly configured on your local machine:
 
@@ -146,7 +146,7 @@ git clone https://github.com/yourusername/terraform-aws-devops-infra.git
 cd terraform-aws-devops-infra/examples/full-cluster
 
 
-## 🚀 Step 3: Apply the Terraform Configuration to Provision Infrastructure
+# 🚀 Step 3: Apply the Terraform Configuration to Provision Infrastructure
 
 Once you're initialized, apply the Terraform configuration to spin up your entire AWS infrastructure stack:
 
