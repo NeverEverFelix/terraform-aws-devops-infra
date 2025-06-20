@@ -1,0 +1,15 @@
+# irsa-test.yaml
+# Simple pod to test IRSA access by running aws sts get-caller-identity
+apiVersion: v1
+kind: Pod
+metadata:
+  name: irsa-test
+  namespace: jenkins
+spec:
+  serviceAccountName: jenkins-irsa-sa
+  containers:
+    - name: irsa-check
+      image: amazonlinux
+      command: ["/bin/sh", "-c"]
+      args:
+        - yum install -y aws-cli && aws sts get-caller-identity && sleep 3600
